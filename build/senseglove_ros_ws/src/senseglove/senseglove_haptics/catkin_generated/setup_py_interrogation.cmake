@@ -1,0 +1,7 @@
+set(senseglove_haptics_SETUP_PY_SETUP_MODULE "setuptools")
+set(senseglove_haptics_SETUP_PY_VERSION "0.0.0")
+set(senseglove_haptics_SETUP_PY_SCRIPTS "scripts/senseglove_haptics_node;src/senseglove_haptics/simple_haptics_node.py")
+set(senseglove_haptics_SETUP_PY_PACKAGES "senseglove_haptics")
+set(senseglove_haptics_SETUP_PY_PACKAGE_DIRS "src/senseglove_haptics")
+set(senseglove_haptics_SETUP_PY_MODULES "")
+set(senseglove_haptics_SETUP_PY_MODULE_DIRS "")

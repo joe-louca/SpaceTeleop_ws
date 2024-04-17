@@ -1,0 +1,8 @@
+prefix=/home/joe/SpaceTeleop_ws/devel
+
+Name: senseglove_haptics
+Description: Description of senseglove_haptics
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: senseglove_shared_resources std_msgs

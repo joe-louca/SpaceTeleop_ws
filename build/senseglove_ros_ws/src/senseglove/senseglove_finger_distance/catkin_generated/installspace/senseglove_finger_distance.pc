@@ -1,0 +1,8 @@
+prefix=/home/joe/SpaceTeleop_ws/install
+
+Name: senseglove_finger_distance
+Description: Description of senseglove_finger_distance
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: senseglove_shared_resources std_msgs

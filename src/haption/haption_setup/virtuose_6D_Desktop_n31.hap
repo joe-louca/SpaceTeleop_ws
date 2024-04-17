@@ -1,0 +1,102 @@
+# fichier de configuration des parametres du virtuose 6D Desktop n31
+#-------------------------------------------------------------------
+#-------------------------------------------------------------------
+
+
+# calibration
+#-------------
+
+virtuose_es_mode_debug						0
+virtuose_es_calibration_automatique			1
+virtuose_mod_activation_panne_sur_vitesse	0
+
+virtuose_phys_position_d_initialisation      		28.69		-38.626		0.0		91.58		-35.87 		-84.155
+
+
+# service
+#--------
+
+virtuose_caracs_numero_service						1
+
+
+
+# commande en vitesse
+#--------------------
+
+virtuose_speed_position_centre						0.24		-0.0257		0.0		0.0		0.0		0.0		1.0
+
+# en translation
+virtuose_speed_enable_translation					0
+virtuose_speed_rapport_vitesse_en_translation		2.0	
+virtuose_speed_rayon								0.05		# m
+virtuose_speed_effort_rappel						2.0			# N
+
+
+# position physique du peripherique
+#----------------------------------
+
+virtuose_phys_H_bm_p_obs							0.0	0.0	0.0		0.0	0.0	0.0	1.0
+
+
+# potentiometres
+#---------------					
+#									
+virtuose_es_gain_potentiometre						0.0		0.0		0.0		0.0		0.0		0.0		0.0		0.0
+virtuose_es_offset_potentiometre					0.0		0.0		0.0		0.0		0.0		0.0		0.0		0.0
+
+
+# butées logicielles
+#-------------------
+
+virtuose_mod_butees_logicielles						1
+
+#													axe 1	axe 2	axe 3	axe 4	axe 5	 axe 6
+#													----------------------------------------------
+virtuose_phys_butees_arti_sup 		 				0.73	-0.05	1.52	 2.3   0.85	 	2.05 
+virtuose_phys_butees_arti_inf 						-0.73	-1.52	0.05	-2.3   -0.85 	-2.05
+
+virtuose_mod_butees_arti_sup 		 				0.73	-0.05	1.52	 2.3   0.85 	 2.05 
+virtuose_mod_butees_arti_inf 						-0.73	-1.52	0.05	-2.3   -0.85 	-2.05
+
+virtuose_mod_butees_plage_deceleration				0.2		0.2		0.2		0.3		0.3		0.3
+
+
+# frottements
+# -----------
+#													axe 1	axe 2	axe 3	axe 4	axe 5	axe 6
+#													----------------------------------------------
+virtuose_mod_gain_fs_arti_amplitude_vit_positive 	0.0 	0.0 	0.0     0.0 	0.001 	0.001
+virtuose_mod_gain_fs_arti_pente_vit_positive 		20.0 	20.0 	20.0 	20.0 	20.0 	20.0
+virtuose_mod_gain_fv_arti_vit_positive 				0.0 	0.0 	0.0		0.0 	0.0		0.0
+
+virtuose_mod_gain_fs_arti_amplitude_vit_negative 	0.0 	0.0 	0.0 	0.0 	0.001 	0.001
+virtuose_mod_gain_fs_arti_pente_vit_negative 		20.0 	20.0 	20.0 	20.0 	20.0 	20.0
+virtuose_mod_gain_fv_arti_vit_negative 				0.0 	0.0 	0.0		0.0 	0.0		0.0
+
+
+# entrées sorties
+#----------------
+
+virtuose_mod_logique_inverse_homme_mort			1
+
+virtuose_es_bit_retour_puissance				0
+virtuose_es_bit_homme_mort						1
+virtuose_es_bit_bouton_arret_mode				6
+virtuose_es_bit_bouton_decalage					7
+virtuose_es_bit_bouton_pause_reprise			8
+
+
+# calibration automatique
+#------------------------
+
+# Kp_V = 0.023 sur les DCX22L
+# Kp_V = 0.0033 sur les DCX16S
+
+virtuose_es_vitesse_calibration				5.5 	-8.0 	7.0 		-15.0 	-10.0 	12.0
+virtuose_es_seuil_courant_calibration		0.09	-0.15	0.15		-0.03	-0.025	0.03
+
+
+# fréquences de coupure
+#---------------------
+
+virtuose_mod_fc_vit_moteur_brut 		100.0 		100.0 	100.0 	100.0 	100.0 	100.0

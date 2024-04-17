@@ -1,0 +1,8 @@
+prefix=/home/joe/SpaceTeleop_ws/install
+
+Name: allegro_hand
+Description: Description of allegro_hand
+Version: 2.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: allegro_hand_driver bhand libpcan roscpp sensor_msgs

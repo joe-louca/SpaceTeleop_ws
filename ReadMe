@@ -1,0 +1,28 @@
+
+
+Local:
+	Haption - Output: /p_hap_out (TwistStamped), /v_hap_out (TwistStamped). Input: /F_hap_in (TwistStamped)
+		cd src/haption/haption_setup
+		sudo ./calibrate_virtuose_6D_Desktop_n31
+		sudo ./SvcHaptic_virtuose_6D_Desktop_n31 
+		rosrun haption haption_node
+		
+	Senseglove - Output: /FingerJointAngles (Float32MultiArray). Input: /FingerContacts (Float32MultiArray)
+		rosrun senseglove senseglove_node
+	
+	Video Streams
+		TO DO
+
+Remote:
+	Kuka
+		TO DO
+		
+	Axia FT Sensor
+		rosrun netft_utils netft_node 192.168.1.2 --rate 1000
+	
+	Allegro Hand - Input: /FingerJointAngles (Float32MultiArray)
+		roslaunch allegro_hand_controllers allegro_hand.launch HAND:=right VISUALIZE:=false CONTROLLER:=grasp
+
+	Resense FT Sensors - Output: /ResenseFTSensor_[Address_ID] (WrenchStamped)
+		rosrun resense_ft_ros resense_ft_node.py [Address_ID]
+

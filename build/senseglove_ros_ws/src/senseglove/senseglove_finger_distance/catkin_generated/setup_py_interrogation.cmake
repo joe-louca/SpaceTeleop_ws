@@ -1,0 +1,7 @@
+set(senseglove_finger_distance_SETUP_PY_SETUP_MODULE "setuptools")
+set(senseglove_finger_distance_SETUP_PY_VERSION "0.0.0")
+set(senseglove_finger_distance_SETUP_PY_SCRIPTS "scripts/senseglove_finger_distance_node;src/senseglove_finger_distance/finger_distance_calibration.py")
+set(senseglove_finger_distance_SETUP_PY_PACKAGES "senseglove_finger_distance")
+set(senseglove_finger_distance_SETUP_PY_PACKAGE_DIRS "src/senseglove_finger_distance")
+set(senseglove_finger_distance_SETUP_PY_MODULES "")
+set(senseglove_finger_distance_SETUP_PY_MODULE_DIRS "")

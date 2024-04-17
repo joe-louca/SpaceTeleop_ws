@@ -1,0 +1,8 @@
+This package reads data from Resense force-torque sensors and publishes the data to a rostopic - /ResenseFTSensor_[X] (WrenchStamped)
+
+1. Check the serial port of the sensors:
+dmesg | grep tty
+
+2. Run the node for each sensor:
+rosrun resense_ft_ros resense_ft_node.py [int address_id]
+

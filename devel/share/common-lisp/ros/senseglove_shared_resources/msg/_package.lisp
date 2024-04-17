@@ -1,0 +1,13 @@
+(cl:defpackage senseglove_shared_resources-msg
+  (:use )
+  (:export
+   "<FINGERDISTANCEFLOATS>"
+   "FINGERDISTANCEFLOATS"
+   "<FINGERDISTANCES>"
+   "FINGERDISTANCES"
+   "<KINEMATICSVECT3D>"
+   "KINEMATICSVECT3D"
+   "<SENSEGLOVESTATE>"
+   "SENSEGLOVESTATE"
+  ))
+

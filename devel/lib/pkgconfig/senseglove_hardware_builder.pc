@@ -1,0 +1,8 @@
+prefix=/home/joe/SpaceTeleop_ws/devel
+
+Name: senseglove_hardware_builder
+Description: Description of senseglove_hardware_builder
+Version: 2.0.0
+Cflags: -I/home/joe/SpaceTeleop_ws/src/senseglove_ros_ws/src/hardware_interface/senseglove_hardware_builder/include
+Libs: -L${prefix}/lib -lsenseglove_hardware_builder
+Requires: roscpp roslib senseglove_hardware urdf

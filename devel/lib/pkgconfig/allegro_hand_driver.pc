@@ -1,0 +1,8 @@
+prefix=/home/joe/SpaceTeleop_ws/devel
+
+Name: allegro_hand_driver
+Description: Description of allegro_hand_driver
+Version: 2.0.1
+Cflags: -I/home/joe/SpaceTeleop_ws/src/allegro_hand_ros_v4/src/allegro_hand_driver/include
+Libs: -L${prefix}/lib -lallegro_hand_driver
+Requires: libpcan roscpp std_msgs
